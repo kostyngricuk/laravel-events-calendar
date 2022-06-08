@@ -1,0 +1,32 @@
+// Body
+$body-bg: #f8fafc;
+
+// Typography
+$font-family-sans-serif: 'Nunito', sans-serif;
+$font-size-base: 14px;
+$line-height-base: 1.6;
+
+
+// Breakpoints
+$breakpoints: (
+    sm: (
+        min: 576px,
+        max: 575.98px,
+    ),
+    md: (
+        min: 768px,
+        max: 767.98px
+    ),
+    lg: (
+        min: 992px,
+        max: 991.98px
+    ),
+    xl: (
+        min: 1200px,
+        max: 1199.98px
+    ),
+    xxl: (
+      min: 1400px,
+      max: 1399.98px,
+    )
+);

@@ -1,0 +1,22 @@
+body {
+  background-color: #f8fafc;
+}
+@media (max-width: 767.98px) {
+  body {
+    background-color: red;
+  }
+}
+
+.header {
+  padding-top: 60px;
+  margin-bottom: 80px;
+}
+
+.navbar {
+  position: absolute;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgb(232, 232, 255);
+}

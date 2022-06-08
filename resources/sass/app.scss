@@ -1,0 +1,23 @@
+// Variables
+@import 'common/variables';
+
+// mixins
+@import 'common/mixins';
+
+// base
+@import 'common/base';
+
+
+.header {
+    padding-top: 60px;
+    margin-bottom: 80px;
+}
+
+.navbar {
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(232, 232, 255);
+}

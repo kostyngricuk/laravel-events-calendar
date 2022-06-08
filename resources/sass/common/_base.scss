@@ -1,0 +1,6 @@
+body {
+    background-color: $body-bg;
+    @include breakpoint(md, max) {
+        background-color: red;
+    }
+}
