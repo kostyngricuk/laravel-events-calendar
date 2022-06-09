@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 
 use App\Http\Controllers\PagesController;
+use App\Http\Controllers\PlansController;
 
 /*
 |--------------------------------------------------------------------------
@@ -17,4 +18,6 @@ use App\Http\Controllers\PagesController;
 
 
 Route::get('/', [PagesController::class, 'home']);
-Route::get('/about', [PagesController::class, 'about']);
+Route::get('about', [PagesController::class, 'about']);
+Route::get('plans', [PlansController::class, 'index']);
+Route::get('plans/{plan}', [PlansController::class, 'show']);
